@@ -1,0 +1,36 @@
+.baneri{
+    width: 100%;
+    height: 210px;
+    background-color: rgb(95, 162, 255);
+}
+
+.txt{
+    text-align: center;
+    font-size: 70px;
+    color: rgb(31,0,51);
+    transform: translateY(50px);
+    font-weight: 700;
+}
+
+.number{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 45px;
+    color: rgb(219, 255, 166);
+}
+
+.number1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 32px;
+    color: greenyellow;
+    font-weight: 900;
+}
+
+.number2{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 32px;
+    color: rgb(193, 255, 99);
+    font-weight: 900;
+}
