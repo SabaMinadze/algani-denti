@@ -4,5 +4,14 @@
     background-color: rgb(17,25,33);
     margin-top: 70px;
     color: aliceblue;
+}
+
+.txt{
     font-size: 50px;
+}
+
+.txt2{
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 50px;
 }
