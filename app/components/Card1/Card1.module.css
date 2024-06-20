@@ -1,6 +1,6 @@
 .card{
-    width: 440px;
-    height: 570px;
+    width: 350px;
+    height: 450px;
     background-color:rgb(6, 6, 58);
     margin-left: 20px;
     color: aliceblue;
@@ -8,7 +8,7 @@
 }
 
 .txt{
-    font-size: 35px;
+    font-size: 33px;
     text-align: center;
 }
 

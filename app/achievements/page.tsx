@@ -33,6 +33,24 @@ function page() {
       <Image src="/kbili9.jpg" width={480} height={300} alt="eror" className={styles.img}/>
       <br/><br/>
     </div>
+    <br/><br/>
+    <div className={styles.box}>
+      <Image src="/kbili10.jpg" width={480} height={300} alt="eror"/>
+      <br/><br/>
+      <Image src="/kbili11.jpg" width={480} height={300} alt="eror" className={styles.img}/>
+      <br/><br/>
+      <Image src="/kbili12.jpg" width={480} height={300} alt="eror" className={styles.img}/>
+      <br/><br/>
+    </div>
+    <br/><br/>
+    <div className={styles.box}>
+      <Image src="/kbili14.jpg" width={480} height={300} alt="eror"/>
+      <br/><br/>
+      <Image src="/kbili15.jpg" width={480} height={300} alt="eror" className={styles.img}/>
+      <br/><br/>
+      <Image src="/kbili16.jpg" width={480} height={300} alt="eror" className={styles.img}/>
+      <br/><br/>
+    </div>
     </>
   )
 }
