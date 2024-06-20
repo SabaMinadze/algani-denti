@@ -1,0 +1,33 @@
+.name{
+    height: 40px;
+    width: 200px;
+    font-size: 20px;
+}
+
+.email{
+    height: 50px;
+    width: 280px;
+    font-size: 20px;
+
+}
+
+.info{
+    height: 100px;
+    width: 500px;
+    font-size: 30px;
+
+}
+
+
+.submit{
+    width: 180px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 30px;
+    margin-left: 320px;
+}
+
+.txt{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
