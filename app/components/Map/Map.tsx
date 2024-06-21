@@ -1,6 +1,6 @@
 "use client";
 
-import React from 'react';
+import React, { useEffect, useState, useCallback } from 'react';
 import { GoogleMap, useJsApiLoader } from '@react-google-maps/api';
 
 const containerStyle = {
@@ -25,15 +25,17 @@ const Map: React.FC = () => {
         googleMapsApiKey: apiKey,
     });
 
-    const [map, setMap] = React.useState<google.maps.Map | null>(null);
+    const [map, setMap] = useState<google.maps.Map | null>(null);
 
-    const onLoad = React.useCallback((map: google.maps.Map) => {
-        const bounds = new window.google.maps.LatLngBounds(center);
-        map.fitBounds(bounds);
-        setMap(map);
+    const onLoad = useCallback((map: google.maps.Map) => {
+        if (typeof window !== 'undefined') {
+            const bounds = new window.google.maps.LatLngBounds(center);
+            map.fitBounds(bounds);
+            setMap(map);
+        }
     }, []);
 
-    const onUnmount = React.useCallback(() => {
+    const onUnmount = useCallback(() => {
         setMap(null);
     }, []);
 
