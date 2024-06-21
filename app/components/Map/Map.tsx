@@ -1,6 +1,7 @@
 "use client";
 
-import React, { useEffect, useState, useCallback } from 'react';
+import dynamic from 'next/dynamic';
+import React, { useCallback, useState } from 'react';
 import { GoogleMap, useJsApiLoader } from '@react-google-maps/api';
 
 const containerStyle = {
@@ -13,7 +14,7 @@ const center = {
     lng: 44.773137968025225
 };
 
-const Map: React.FC = () => {
+const MapComponent: React.FC = () => {
     const apiKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY;
 
     if (!apiKey) {
@@ -28,11 +29,9 @@ const Map: React.FC = () => {
     const [map, setMap] = useState<google.maps.Map | null>(null);
 
     const onLoad = useCallback((map: google.maps.Map) => {
-        if (typeof window !== 'undefined') {
-            const bounds = new window.google.maps.LatLngBounds(center);
-            map.fitBounds(bounds);
-            setMap(map);
-        }
+        const bounds = new window.google.maps.LatLngBounds(center);
+        map.fitBounds(bounds);
+        setMap(map);
     }, []);
 
     const onUnmount = useCallback(() => {
@@ -57,7 +56,8 @@ const Map: React.FC = () => {
     ) : (
         <div>Loading...</div>
     );
-}
+};
+
+const Map = dynamic(() => Promise.resolve(MapComponent), { ssr: false });
 
 export default Map;
-
