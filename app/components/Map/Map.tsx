@@ -14,14 +14,15 @@ const center = {
 };
 
 const Map: React.FC = () => {
+    const apiKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY;
 
-    if (!process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY) {
+    if (!apiKey) {
         throw new Error('NEXT_PUBLIC_GOOGLE_MAPS_API_KEY is not defined');
     }
 
-    const { isLoaded } = useJsApiLoader({
+    const { isLoaded, loadError } = useJsApiLoader({
         id: 'google-map-script',
-        googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY,
+        googleMapsApiKey: apiKey,
     });
 
     const [map, setMap] = React.useState<google.maps.Map | null>(null);
@@ -32,9 +33,13 @@ const Map: React.FC = () => {
         setMap(map);
     }, []);
 
-    const onUnmount = React.useCallback((map: google.maps.Map) => {
+    const onUnmount = React.useCallback(() => {
         setMap(null);
     }, []);
+
+    if (loadError) {
+        return <div>Error loading maps</div>;
+    }
 
     return isLoaded ? (
         <GoogleMap
@@ -53,3 +58,4 @@ const Map: React.FC = () => {
 }
 
 export default Map;
+
