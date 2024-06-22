@@ -37,7 +37,7 @@
 
 /************************************ MEDIA QUERT CONYENT ***********************************/
 
-@media (min-width: 428px) and (max-width: 950px){
+@media (min-width: 320px) and (max-width: 950px){
     .txt{
         transform: translateY(-110px);
         margin-left: 100px;
