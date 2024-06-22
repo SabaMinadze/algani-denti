@@ -50,6 +50,11 @@ function page() {
     <Card name="ვინირი" price="700 ₾"/>
     <Card name="პროტეზი" price="510 - 2800 ₾"/>
     </div>
+    <div className={styles.box}>
+    <Card name="Invisalign" price="9000 - 14000 ₾"/>
+    <Card name="მეტალის ბრეკეტ-სისტემა" price="1100 ₾ -დან"/>
+    <Card name="კერამიკის ბრეკეტ-სისტემა" price="1500 ₾ -დან"/>
+    </div>
 
     </>
   )
