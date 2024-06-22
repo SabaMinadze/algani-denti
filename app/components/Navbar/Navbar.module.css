@@ -13,9 +13,6 @@
     cursor: pointer;
 }
 
-.logo:hover{
-    border: 7px solid rgb(188, 19, 19);
-}
 
 .txt{
     margin-left: 650px;
