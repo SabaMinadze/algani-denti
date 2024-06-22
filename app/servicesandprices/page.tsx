@@ -45,6 +45,11 @@ function page() {
     <Card name="სინუსლიფტინგი" price="800 ₾ -დან"/>
     <Card name="ღიმილის ციფრული დაგეგმარება" price="150 ₾"/>
     </div>
+    <div className={styles.box}>
+    <Card name="გვირგვინი" price="600 - 650 ₾"/>
+    <Card name="ვინირი" price="700 ₾"/>
+    <Card name="პროტეზი" price="510 - 2800 ₾"/>
+    </div>
 
     </>
   )
