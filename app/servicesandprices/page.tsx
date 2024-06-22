@@ -6,13 +6,13 @@ function page() {
   return (
     <>
     <div className={styles.box}>
-    <Card name="კონსულტაცია დიაგნოსტიკაა"/>
-    <Card name="პროფესიული ჰიგიენა"/>
+    <Card name="კონსულტაცია დიაგნოსტიკაა" price="50 -200 ₾"/>
+    <Card name="პროფესიული ჰიგიენა" price="140 - 300 ₾"/>
     <Card name="გათეთრებაა"/>
     </div>
     <div className={styles.box}>
     <Card name="კბილის დაბჟენა"/>
-    <Card name="გათეთრება"/>
+    <Card name="არხების მკურნალობა"/>
     <Card name="გათეთრება"/>
     </div>
 
