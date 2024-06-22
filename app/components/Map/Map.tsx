@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState, useCallback } from 'react';
 import { GoogleMap, useJsApiLoader } from '@react-google-maps/api';
+import styles from './Map.module.css'
 
 const containerStyle = {
     width: "800px",
@@ -44,16 +45,18 @@ const Map: React.FC = () => {
     }
 
     return isLoaded ? (
-        <GoogleMap
-            mapContainerStyle={containerStyle}
-            center={center}
-            zoom={10}
-            onLoad={onLoad}
-            onUnmount={onUnmount}
-        >
-            { /* Child components, such as markers, info windows, etc. */ }
-            <></>
-        </GoogleMap>
+        <div className={styles.map}>
+            <GoogleMap
+                mapContainerStyle={containerStyle}
+                center={center}
+                zoom={10}
+                onLoad={onLoad}
+                onUnmount={onUnmount}
+            >
+                { /* Child components, such as markers, info windows, etc. */ }
+                <></>
+            </GoogleMap>
+            </div>
     ) : (
         <div>Loading...</div>
     );

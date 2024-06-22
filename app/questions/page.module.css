@@ -1,41 +1,10 @@
-.name{
-    height: 40px;
-    width: 200px;
-    font-size: 20px;
-    background-color: rgb(43, 43, 43);
-    cursor: pointer;
-}
-
-.email{
-    height: 50px;
-    width: 280px;
-    font-size: 20px;
-    background-color: rgb(43, 43, 43);
-    cursor: pointer;
-
-}
-
-.info{
-    height: 100px;
-    width: 500px;
-    font-size: 30px;
-    background-color: rgb(43, 43, 43);
-    cursor: pointer;
-
-}
+@media (min-width: 220px) and (max-width: 950px){
+    .box{
+        width: 380px;
+        transform: translateX(70px);
+        background-color: blueviolet;
+    }
 
 
-.submit{
-    width: 180px;
-    height: 50px;
-    cursor: pointer;
-    font-size: 30px;
-    margin-left: 320px;
-    background-color: rgb(46, 46, 46);
-    color: rgb(255, 255, 255);
-}
 
-.txt{
-    color: rgb(255, 255, 255);
-    font-size: 25px;
 }
