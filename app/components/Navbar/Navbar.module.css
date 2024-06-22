@@ -18,8 +18,69 @@
 }
 
 .txt{
-    transform: translateY(-100px);
-    color: aliceblue;
+    margin-left: 650px;
+    transform: translateY(-50px);
+    color: rgb(255, 255, 255);
     cursor: pointer;
+    font-weight: 900;
 
 }
+
+.txt2{
+    margin-left: 550px;
+    transform: translateY(-140px);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-weight: 900;
+
+}
+
+/************************************ MEDIA QUERT CONYENT ***********************************/
+
+@media (min-width: 428px) and (max-width: 950px){
+    .txt{
+        transform: translateY(-110px);
+        margin-left: 100px;
+        font-size: 25px;
+        font-weight: 900;
+    }
+
+    .txt2{
+        transform: translateY(-105px);
+        margin-left: 13px;
+        font-size: 20px;
+        font-weight: 900;
+    }
+
+    .logo{
+        border-radius: 19px;
+        margin-left: 300px;
+        height: 110px;
+        width: 120px;
+        margin-top: 10px;
+        cursor: pointer;
+
+    }
+
+}
+
+
+@media (min-width: 951px) and (max-width: 1200px){
+    .txt{
+        margin-left: 100px;
+        font-size: 25px;
+
+    }
+
+    .logo{
+        border-radius: 19px;
+        margin-left: 90px;
+        height: 110px;
+        width: 120px;
+        margin-top: 10px;
+        cursor: pointer;
+
+    }
+
+}
+

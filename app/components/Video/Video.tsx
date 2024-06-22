@@ -5,7 +5,7 @@ import styles from './Video.module.css'
 function Video() {
   return (
     <>
-    <video width="1480" height="600" controls autoPlay>
+    <video width="320" height="240" controls autoPlay className={styles.vid}>
         <source src="/afxazeti.mp4" type="video/mp4" />
         <track
             src="/afxazeti.mp4"
