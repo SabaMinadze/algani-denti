@@ -4,3 +4,17 @@
     margin-left: 20px;
     margin-top: 20px;
 }
+
+
+/************************************ MEDIA QUERT CONYENT ***********************************/
+
+@media (min-width: 220px) and (max-width: 950px){
+    .box{
+        color: rgb(255, 255, 255);
+        font-size: 10px;
+        margin-left: 12px;
+        margin-top: 20px;
+    }
+    
+    
+}

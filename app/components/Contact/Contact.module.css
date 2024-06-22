@@ -1,3 +1,7 @@
+.box{
+    text-align: center;
+}
+
 .name{
     height: 40px;
     width: 280px;
@@ -21,7 +25,6 @@
     font-size: 30px;
     background-color: rgb(43, 43, 43);
     cursor: pointer;
-
 }
 
 
@@ -38,4 +41,33 @@
 .txt{
     color: rgb(255, 255, 255);
     font-size: 25px;
+}
+
+
+@media (min-width: 220px) and (max-width: 950px){
+    .box{
+        text-align: left;
+        margin-left: 5px;
+    }
+    
+
+    .info{
+        height: 150px;
+        width: 380px;
+        font-size: 25px;
+        background-color: rgb(43, 43, 43);
+
+    }
+
+    .submit{
+        width: 180px;
+        height: 50px;
+        cursor: pointer;
+        font-size: 30px;
+        margin-left: 200px;
+        background-color: rgb(46, 46, 46);
+        color: rgb(255, 255, 255);
+    }
+
+
 }

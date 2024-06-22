@@ -29,25 +29,23 @@ export default function Contact() {
 
     return (
         <>
-        <center>
-          <div className={styles.box}>
-            <form onSubmit={handleSubmit}>
-              <label htmlFor="name" className={styles.txt}>სახელი: </label>
-              <br />
-              <input type="text" name="name" id="name" placeholder="Name" required className={styles.name} />
-              <br /><br />
-              <label htmlFor="email" className={styles.txt}>ელ-ფოსტა: </label>
-              <br />
-              <input type="email" name="email" id="email" placeholder="E-mail" required className={styles.email} />
-              <br /><br />
-              <label htmlFor="message" className={styles.txt}>წერილი: </label>
-              <br />
-              <input type="text" name="message" id="message" placeholder="Enter Your Message" required className={styles.info} />
-              <br /><br />
-              <input type="submit" value="მოგვწერეთ" className={styles.submit} />
-            </form>
-          </div>
-        </center>
+            <div className={styles.box}>
+              <form onSubmit={handleSubmit}>
+                <label htmlFor="name" className={styles.txt}>სახელი: </label>
+                <br />
+                <input type="text" name="name" id="name" placeholder="Name" required className={styles.name} />
+                <br /><br />
+                <label htmlFor="email" className={styles.txt}>ელ-ფოსტა: </label>
+                <br />
+                <input type="email" name="email" id="email" placeholder="E-mail" required className={styles.email} />
+                <br /><br />
+                <label htmlFor="message" className={styles.txt}>წერილი: </label>
+                <br />
+                <input type="text" name="message" id="message" placeholder="Enter Your Message" required className={styles.info} />
+                <br /><br />
+                <input type="submit" value="მოგვწერეთ" className={styles.submit} />
+              </form>
+            </div>
       </>
       );
     }    

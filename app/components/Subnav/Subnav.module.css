@@ -27,7 +27,7 @@
 
 /************************************ MEDIA QUERT CONYENT ***********************************/
 
-@media (min-width: 320px) and (max-width: 950px){
+@media (min-width: 220px) and (max-width: 950px){
     .contentcontainer{
         color: rgb(15, 39, 173);
 

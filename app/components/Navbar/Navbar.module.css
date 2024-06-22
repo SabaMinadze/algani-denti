@@ -34,8 +34,18 @@
 
 /************************************ MEDIA QUERT CONYENT ***********************************/
 
-@media (min-width: 320px) and (max-width: 950px){
+@media (min-width: 220px) and (max-width: 950px){
+    .navbar{
+        min-width: 220px;
+        max-width: 950px;
+        height: 130px;
+        background-color: rgb(0,99,237);
+    }
+    
+
     .txt{
+        min-width: 220px;
+        max-width: 950px;
         transform: translateY(-110px);
         margin-left: 100px;
         font-size: 25px;
@@ -43,6 +53,8 @@
     }
 
     .txt2{
+        min-width: 220px;
+        max-width: 950px;
         transform: translateY(-105px);
         margin-left: 13px;
         font-size: 20px;
@@ -51,7 +63,7 @@
 
     .logo{
         border-radius: 19px;
-        margin-left: 300px;
+        margin-left: 289px;
         height: 110px;
         width: 120px;
         margin-top: 10px;

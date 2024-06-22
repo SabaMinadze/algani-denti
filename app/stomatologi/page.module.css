@@ -7,3 +7,20 @@
     border-radius: 10px;
     cursor: pointer;
 }
+
+
+/************************************ MEDIA QUERT CONYENT ***********************************/
+
+@media (min-width: 220px) and (max-width: 950px){
+    .box{
+        display: block;
+    }
+
+    .img1{
+        margin-left: 12px;
+        border-radius: 10px;
+        cursor: pointer;
+        width: 380px;
+        height: 350px;
+    }
+}
