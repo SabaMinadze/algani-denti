@@ -13,7 +13,7 @@ function page() {
     <Link href="https://www.facebook.com/AlganiDent/?locale=ka_GE"><Image src="/kokasinfo.jpg" height={450} width={350} alt='erro' className={styles.img1}/></Link>
       <br/><br/>
       <Link href="https://www.facebook.com/AlganiDent/?locale=ka_GE"><Image src="/mariam.jpg" height={450} width={350} alt='erro' className={styles.img1}/></Link>
-      <Link href="https://www.facebook.com/AlganiDent/?locale=ka_GE"></Link><br/><br/>
+      <br/><br/>
       <Link href="https://www.facebook.com/AlganiDent/?locale=ka_GE"><Image src="/marika.jpg" height={450} width={350} alt='erro' className={styles.img1}/></Link>
       <br/><br/>
       <Link href="https://www.facebook.com/AlganiDent/?locale=ka_GE"><Image src="/qeti.jpg" height={450} width={350} alt='erro' className={styles.img1}/></Link>
@@ -21,11 +21,11 @@ function page() {
     </div>
     <br/><br/>
     <div className={styles.box}>
-      <Image src="/salome.jpg" height={450} width={350} alt='erro' className={styles.img1}/>
+    <Link href="https://www.facebook.com/AlganiDent/?locale=ka_GE"><Image src="/salome.jpg" height={450} width={350} alt='erro' className={styles.img1}/></Link>
       <br/><br/>
-      <Image src="/gina.jpg" height={450} width={350} alt='erro' className={styles.img1}/>
+      <Link href="https://www.facebook.com/AlganiDent/?locale=ka_GE"><Image src="/gina.jpg" height={450} width={350} alt='erro' className={styles.img1}/></Link>
       <br/><br/>
-      <Image src="/qetic.jpg" height={450} width={350} alt='erro' className={styles.img1}/>
+      <Link href="https://www.facebook.com/AlganiDent/?locale=ka_GE"><Image src="/qetic.jpg" height={450} width={350} alt='erro' className={styles.img1}/></Link>
       <br/><br/>
       <Link href="https://www.instagram.com/niniminadze16/"><Card1 name="ნინი მინაძე" age="17 წლის" position="ჭრა-კერვა" image={<Image src="/nini.jpg" height={300} width={300} alt='erro'/>}/></Link>
       <br/><br/>
