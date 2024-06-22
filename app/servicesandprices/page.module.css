@@ -1,0 +1,13 @@
+.box{
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;    /* Centers vertically */    
+
+
+}
+
+
+
+@media (min-width: 220px) and (max-width: 950px){
+
+}

@@ -5,11 +5,17 @@ import Card from '../components/Card/Card'
 function page() {
   return (
     <>
+    <div className={styles.box}>
+    <Card name="კონსულტაცია დიაგნოსტიკაა"/>
+    <Card name="პროფესიული ჰიგიენა"/>
+    <Card name="გათეთრებაა"/>
+    </div>
+    <div className={styles.box}>
+    <Card name="კბილის დაბჟენა"/>
     <Card name="გათეთრება"/>
     <Card name="გათეთრება"/>
-    <Card name="გათეთრება"/>
-    <Card name="გათეთრება"/>
-    <Card name="გათეთრება"/>
+    </div>
+
     </>
   )
 }

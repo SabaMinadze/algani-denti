@@ -11,7 +11,6 @@ function page() {
     <div className={styles.box}>
     <Subnav/>
     <Burgernav/>
-    <Video/>
     </div>
 
 
