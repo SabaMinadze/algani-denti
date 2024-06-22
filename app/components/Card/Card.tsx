@@ -8,7 +8,7 @@ function Card(props:any) {
         <br/>
         <h1 className={styles.txt}>{props.name}</h1>
         <br/>
-        <h2 className={styles.price}>{props.price}</h2>
+        <h3 className={styles.price}>{props.price}</h3>
 
     </div>
     </>

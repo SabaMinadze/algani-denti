@@ -10,7 +10,8 @@
 
 .txt{
     text-align: center;
-    font-size: 27px;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
 }
 
 .price{
@@ -34,11 +35,13 @@
     .txt{
         text-align: center;
         font-size: 27px;
+        color: rgb(255, 255, 255);
     }
 
     .price{
         text-align: center;
         font-size: 23px;
+        color: rgb(255, 255, 255);
     }
 
 
