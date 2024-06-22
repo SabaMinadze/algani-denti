@@ -37,8 +37,13 @@ function page() {
     </div>
     <div className={styles.box}>
     <Card name="ფისურების ჰერმეტიზაცია" price="65 ₾"/>
-    <Card name="ალვეოლის პრეზერვაცია" price="650 ₾"/>
-    <Card name="სარძევე კბილის მკურნალობა" price="40 - 220 ₾"/>
+    <Card name="მუდმივი კბილის ექსტრაქცია" price="45 - 170 ₾"/>
+    <Card name="სიბრძნის კბილის ექსტრაქცია" price="110 - 400 ₾"/>
+    </div>
+    <div className={styles.box}>
+    <Card name="იმპლანტი" price="65 ₾"/>
+    <Card name="სინუსლიფტინგი" price="800 ₾ -დან"/>
+    <Card name="ღიმილის ციფრული დაგეგმარება" price="150 ₾"/>
     </div>
 
     </>
