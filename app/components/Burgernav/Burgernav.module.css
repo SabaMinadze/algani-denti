@@ -84,7 +84,7 @@
   background-color: var(--foreground);
   color: var(--background);
   max-width: 250px;
-  height: 80vh;
+  height: 90vh;
   transform: translateY(-60px);
 
 }
