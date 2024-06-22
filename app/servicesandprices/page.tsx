@@ -55,6 +55,10 @@ function page() {
     <Card name="მეტალის ბრეკეტ-სისტემა" price="1100 ₾ -დან"/>
     <Card name="კერამიკის ბრეკეტ-სისტემა" price="1500 ₾ -დან"/>
     </div>
+    <div className={styles.box}>
+    <Card name="ლინგვალური ბრეკეტ-სისტემა" price="4700 ₾"/>
+    <Card name="რენტგენოლოგიური გამოკვლევა" price="20 - 85 ₾"/>
+    </div>
 
     </>
   )
