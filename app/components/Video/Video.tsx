@@ -6,9 +6,9 @@ function Video() {
   return (
     <>
     <video width="320" height="240" controls autoPlay className={styles.vid}>
-        <source src="/afxazeti.mp4" type="video/mp4" />
+        <source src="/milionalixros.mp4" type="video/mp4" />
         <track
-            src="/afxazeti.mp4"
+            src="/milionalixros.mp4"
             kind="subtitles"
             srcLang="en"
             label="English"
