@@ -9,8 +9,8 @@ function Navbar() {
     <>
       <div className={styles.navbar}>
       <Link href="/"><Image src="/alganident.jpg" height={170} width={150} alt="eror" className={styles.logo}/></Link>
-         <h1 className={styles.txt}>ალგანი დენტი</h1>
-         <h1 className={styles.txt2}>სტომატოლოგიური კლინიკა</h1>
+      <Link href="/"><h1 className={styles.txt}>ალგანი დენტი</h1></Link>
+      <Link href="/"><h1 className={styles.txt2}>სტომატოლოგიური კლინიკა</h1></Link>
       </div>
 
     </>
