@@ -25,10 +25,10 @@
 
 @media (min-width: 220px) and (max-width: 950px){
     .card{
-        width: 370px;
+        width: 380px;
         height: 160px;
         background-color: cornflowerblue;
-        margin-left: 20px;
+        margin-left: 15px;
         margin-top: 25px;
     }
     
