@@ -14,7 +14,7 @@ function page() {
     <Burgernav/>
     <Video/>
     <br/><br/><br/>
-    <Link href="/"><button>English version of the website</button></Link>
+    <Link href="http://localhost:3001/"><button>English version of the website</button></Link>
     </div>
     </>
   )
