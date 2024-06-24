@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './Footer.module.css'
+import Link from 'next/link'
 
 
 function Footer() {
@@ -9,7 +10,7 @@ function Footer() {
       <h2 className={styles.txt3}>Instagram: minadzesaba16</h2>
       <br/><br/>
       <h1>Language</h1>
-      <button className={styles.btn}>English</button>
+      <Link href="http://localhost:3001/"><button className={styles.btn}>ქართული</button></Link>
 
       <h2 className={styles.txt2}>algandent.ge ყველა უფლება დაცულია. © 2023 - 2024</h2>
 

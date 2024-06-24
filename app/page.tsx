@@ -13,8 +13,6 @@ function page() {
     <Subnav/>
     <Burgernav/>
     <Video/>
-    <br/><br/><br/>
-    <Link href="http://localhost:3001/"><button>English version of the website</button></Link>
     </div>
     </>
   )
