@@ -41,6 +41,8 @@
         height: 40px;
         width: 140px;
         font-size: 25px;
+        background-color: rgb(40, 40, 40);
+        border-radius: 5px;
     }
 
 }
