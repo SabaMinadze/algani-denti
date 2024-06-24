@@ -11,7 +11,6 @@ function Navbar() {
       <Link href="/"><Image src="/alganident.jpg" height={170} width={150} alt="eror" className={styles.logo}/></Link>
       <Link href="/"><h1 className={styles.txt}>ალგანი დენტი</h1></Link>
       <Link href="/"><h1 className={styles.txt2}>სტომატოლოგიური კლინიკა</h1></Link>
-      <Link href="http://localhost:3001/"><button>English</button></Link>
       </div>
 
     </>
