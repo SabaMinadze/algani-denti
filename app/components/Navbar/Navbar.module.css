@@ -16,19 +16,23 @@
 
 .txt{
     margin-left: 650px;
-    transform: translateY(-50px);
+    transform: translateY(-100px);
     color: rgb(255, 255, 255);
     cursor: pointer;
     font-weight: 900;
+    font-size: 30px;
 
 }
 
 .txt2{
-    margin-left: 550px;
+    margin-left: 300px;
     transform: translateY(-140px);
     color: rgb(255, 255, 255);
     cursor: pointer;
     font-weight: 900;
+    font-size: 25px;
+
+
 
 }
 
