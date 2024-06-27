@@ -29,10 +29,16 @@ function page() {
       <br/><br/>
       <Link href="https://www.instagram.com/niniminadze16/"><Card1 name="ნინი მინაძე" age="17 წლის" position="ჭრა-კერვა" image={<Image src="/nini.jpg" height={300} width={300} alt='erro'/>}/></Link>
       <br/><br/>
-      <Link href="https://www.instagram.com/guramdiasamize/"><Card1 name="გურამ დიასამიძე" age="16 წლის" position="30 გრადუსიანი კუთხის კოტანგესის გამომთვლელი" image={<Image src="/gurami.jpg" height={290} width={300} alt='erro'/>}/></Link>
       <br/><br/>
     </div>
     <br/><br/>
+    <div className={styles.box}>
+      <br/><br/>
+      <Link href="https://www.instagram.com/guramdiasamize/"><Card1 name="გურამ დიასამიძე" age="16 წლის" position="30 გრადუსიანი კუთხის კოტანგესის გამომთვლელი" image={<Image src="/gurami.jpg" height={290} width={300} alt='erro'/>}/></Link>
+      <br/><br/> 
+    </div>
+    <br/><br/>
+    <div className={styles.box}></div>
     </>
   )
 }
