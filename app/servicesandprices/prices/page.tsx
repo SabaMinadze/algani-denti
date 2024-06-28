@@ -6,10 +6,13 @@ import Link from 'next/link'
 function page() {
   return (
     <>
+    <br/>
     <Card2 txt="კონსლულტაცია: 30₾"/>
     <br/>
     <Card2 txt="კონსლულტაცია: 30₾"/>
+    <br/>
     <Card2 txt="კონსლულტაცია: 30₾"/>
+    <br/>
     <Card2 txt="კონსლულტაცია: 30₾"/>
     </>
   )
