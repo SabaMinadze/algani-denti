@@ -1,0 +1,12 @@
+.box{
+    height: 70px;
+    background-color: rgb(26, 66, 229);
+    width: 330px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.txt{
+    font-size: 30px;
+    color: white;
+}
