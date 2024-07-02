@@ -17,7 +17,7 @@ function page() {
     <Link href="/servicesandprices/prices"><Card name="გნათოლოგია" price=""/></Link>
     </div>
     <div className={styles.box}>
-    <Link href="/servicesandprices/prices"><Card name="იმპლანტოლოგია" price=""/></Link>
+    <Link href="/servicesandprices/prices7"><Card name="იმპლანტოლოგია" price=""/></Link>
     <Link href="/servicesandprices/prices"><Card name="ესთეთიური სტომატოლოგია" price=""/></Link>
     <Link href="/servicesandprices/prices"><Card name="პარადონტოლოგია" price=""/></Link>
     </div>
