@@ -12,14 +12,14 @@ function page() {
     <Link href="/servicesandprices/prices3"><Card name="ქირურგიული სტომატოლოგია" price=""/></Link>
     </div>
     <div className={styles.box}>
-    <Link href="/servicesandprices/prices"><Card name="ორთოპედია" price=""/></Link>
-    <Link href="/servicesandprices/prices"><Card name="ორთოდონტია" price=""/></Link>
+    <Link href="/servicesandprices/prices4"><Card name="ორთოპედია" price=""/></Link>
+    <Link href="/servicesandprices/prices5"><Card name="ორთოდონტია" price=""/></Link>
     <Link href="/servicesandprices/prices"><Card name="გნათოლოგია" price=""/></Link>
     </div>
     <div className={styles.box}>
-    <Link href="/servicesandprices/prices"><Card name="იმპლანტოლოგია" price="სტოტიში"/></Link>
+    <Link href="/servicesandprices/prices"><Card name="იმპლანტოლოგია" price=""/></Link>
     <Link href="/servicesandprices/prices"><Card name="ესთეთიური სტომატოლოგია" price=""/></Link>
-    <Link href="/servicesandprices/prices"><Card name="ნაფლეთოვანი ოპერაცია" price=""/></Link>
+    <Link href="/servicesandprices/prices"><Card name="პარადონტოლოგია" price=""/></Link>
     </div>
     
 
