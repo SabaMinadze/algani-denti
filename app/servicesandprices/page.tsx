@@ -19,7 +19,7 @@ function page() {
     <div className={styles.box}>
     <Link href="/servicesandprices/prices7"><Card name="იმპლანტოლოგია" price=""/></Link>
     <Link href="/servicesandprices/prices8"><Card name="ესთეთიური სტომატოლოგია" price=""/></Link>
-    <Link href="/servicesandprices/prices"><Card name="პარადონტოლოგია" price=""/></Link>
+    <Link href="/servicesandprices/prices9"><Card name="პარადონტოლოგია" price=""/></Link>
     </div>
     
 
