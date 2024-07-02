@@ -8,7 +8,7 @@ function page() {
     <>
     <div className={styles.box}>
     <Link href="/servicesandprices/prices"><Card name="თერაპიული სტომატოლოგია" price=""/></Link>
-    <Link href="/servicesandprices/prices"><Card name="ბავშვთა სტომატოლატოლოგია" price=""/></Link>
+    <Link href="/servicesandprices/prices2"><Card name="ბავშვთა სტომატოლატოლოგია" price=""/></Link>
     <Link href="/servicesandprices/prices"><Card name="ქირურგიული სტომატოლოგია" price=""/></Link>
     </div>
     <div className={styles.box}>
