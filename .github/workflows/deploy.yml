@@ -24,12 +24,10 @@ jobs:
       - name: Build Next.js app
         run: npm run build
 
-      - name: Export static files
-        run: npm run export
-
       - name: Deploy to Vercel
-        run: vercel --prod
+        run: npm run deploy
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+
 
 
