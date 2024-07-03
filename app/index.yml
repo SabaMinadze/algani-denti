@@ -1,5 +1,5 @@
 trigger:
-- main
+- master
 
 pool:
   vmImage: 'ubuntu-latest'
@@ -17,12 +17,12 @@ steps:
 
 - task: CopyFiles@2
   inputs:
-    contents: '**'
-    targetFolder: '$(Build.ArtifactStagingDirectory)'
-  displayName: 'Copy Files to: $(Build.ArtifactStagingDirectory)'
+    contents: 'dist/**'
+    targetFolder: '$(Build.ArtifactStagingDirectory)/dist'
+  displayName: 'Copy files to staging directory'
 
 - task: PublishBuildArtifacts@1
   inputs:
-    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
-    ArtifactName: 'drop'
+    pathToPublish: '$(Build.ArtifactStagingDirectory)/dist'
+    artifactName: 'drop'
   displayName: 'Publish Artifact: drop'
