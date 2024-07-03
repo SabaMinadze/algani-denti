@@ -1,28 +1,30 @@
-trigger:
-- master
+name: Deploy Next.js App
 
-pool:
-  vmImage: 'ubuntu-latest'
+on:
+  push:
+    branches:
+      - main
 
-steps:
-- task: NodeTool@0
-  inputs:
-    versionSpec: '14.x'
-  displayName: 'Install Node.js'
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
 
-- script: |
-    npm install
-    npm run build
-  displayName: 'npm install and build'
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-- task: CopyFiles@2
-  inputs:
-    contents: 'dist/**'
-    targetFolder: '$(Build.ArtifactStagingDirectory)/dist'
-  displayName: 'Copy files to staging directory'
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
 
-- task: PublishBuildArtifacts@1
-  inputs:
-    pathToPublish: '$(Build.ArtifactStagingDirectory)/dist'
-    artifactName: 'drop'
-  displayName: 'Publish Artifact: drop'
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build Next.js app
+        run: npm run build
+
+      - name: Deploy to Vercel
+        run: npm run deploy
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
