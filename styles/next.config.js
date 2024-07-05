@@ -1,6 +1,7 @@
 const nextConfig = {
     reactStrictMode: true,
     swcMinify: true,
+    target: 'serverless',
     exportPathMap: async function (
       defaultPathMap,
       { dev, dir, outDir, distDir, buildId }
